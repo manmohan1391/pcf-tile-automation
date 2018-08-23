@@ -104,15 +104,167 @@ PROPERTIES=$(cat <<-EOF
     ".properties.plan2_enable_service_plan": {
       "value": "$PLAN_2_STATUS"
     },
+    ".properties.plan2_enable_service_plan.enable.plan_name": {
+      "value": "$PLAN_2_NAME"
+    },
+    ".properties.plan2_enable_service_plan.enable.plan_description": {
+      "value": "$PLAN_2_DESC"
+    },
+    ".properties.plan2_enable_service_plan.enable.service_metrics": {
+      "value": "$PLAN_2_METRICS"
+    },
+    ".properties.plan2_enable_service_plan.enable.cf_service_access": {
+      "value": "$PLAN_2_SERVICE_ACCESS"
+    },
+    ".properties.plan2_enable_service_plan.enable.service_instance_quota": {
+      "value": "$PLAN_2_SERVICE_INSTANCE_QUOTA"
+    },
+    ".properties.plan2_enable_service_plan.enable.max_servers_per_cluster": {
+      "value": "$PLAN_2_SERVERS_PER_CLUSTER"
+    },
+    ".properties.plan2_enable_service_plan.enable.default_num_servers": {
+      "value": "$PLAN_2_DEFAULT_NUM_SERVERS"
+    },
+    ".properties.plan2_enable_service_plan.enable.service_instance_azs": {
+      "value": [
+        $PLAN_2_AZS
+       ]
+    }, 
+    ".properties.plan2_enable_service_plan.enable.locator_vm_type": {
+      "value": "$PLAN_2_LOCATOR_VM"
+    },
+    ".properties.plan2_enable_service_plan.enable.locator_persistent_disk_type": {
+      "value": "$PLAN_2_PERSIS_DISK_LOCATOR"
+    },
+    ".properties.plan2_enable_service_plan.enable.server_vm_type": {
+      "value": "$PLAN_2_SERVER_VM"
+    },
+    ".properties.plan2_enable_service_plan.enable.server_persistent_disk_type": {
+      "value": "$PLAN_2_PERSIS_DISK_SERVER"
+    }, 
     ".properties.plan3_enable_service_plan": {
       "value": "$PLAN_3_STATUS"
     },
+    ".properties.plan3_enable_service_plan.enable.plan_name": {
+      "value": "$PLAN_3_NAME"
+    },
+    ".properties.plan3_enable_service_plan.enable.plan_description": {
+      "value": "$PLAN_3_DESC"
+    },
+    ".properties.plan3_enable_service_plan.enable.service_metrics": {
+      "value": "$PLAN_3_METRICS"
+    },
+    ".properties.plan3_enable_service_plan.enable.cf_service_access": {
+      "value": "$PLAN_3_SERVICE_ACCESS"
+    },
+    ".properties.plan3_enable_service_plan.enable.service_instance_quota": {
+      "value": "$PLAN_3_SERVICE_INSTANCE_QUOTA"
+    },
+    ".properties.plan3_enable_service_plan.enable.max_servers_per_cluster": {
+      "value": "$PLAN_3_SERVERS_PER_CLUSTER"
+    },
+    ".properties.plan3_enable_service_plan.enable.default_num_servers": {
+      "value": "$PLAN_3_DEFAULT_NUM_SERVERS"
+    },
+    ".properties.plan3_enable_service_plan.enable.service_instance_azs": {
+      "value": [
+        $PLAN_3_AZS
+       ]
+    }, 
+    ".properties.plan3_enable_service_plan.enable.locator_vm_type": {
+      "value": "$PLAN_3_LOCATOR_VM"
+    },
+    ".properties.plan3_enable_service_plan.enable.locator_persistent_disk_type": {
+      "value": "$PLAN_3_PERSIS_DISK_LOCATOR"
+    },
+    ".properties.plan3_enable_service_plan.enable.server_vm_type": {
+      "value": "$PLAN_3_SERVER_VM"
+    },
+    ".properties.plan3_enable_service_plan.enable.server_persistent_disk_type": {
+      "value": "$PLAN_3_PERSIS_DISK_SERVER"
+    }, 
     ".properties.plan4_enable_service_plan": {
       "value": "$PLAN_4_STATUS"
     },
+    ".properties.plan4_enable_service_plan.enable.plan_name": {
+      "value": "$PLAN_4_NAME"
+    },
+    ".properties.plan4_enable_service_plan.enable.plan_description": {
+      "value": "$PLAN_4_DESC"
+    },
+    ".properties.plan4_enable_service_plan.enable.service_metrics": {
+      "value": "$PLAN_4_METRICS"
+    },
+    ".properties.plan4_enable_service_plan.enable.cf_service_access": {
+      "value": "$PLAN_4_SERVICE_ACCESS"
+    },
+    ".properties.plan4_enable_service_plan.enable.service_instance_quota": {
+      "value": "$PLAN_4_SERVICE_INSTANCE_QUOTA"
+    },
+    ".properties.plan4_enable_service_plan.enable.max_servers_per_cluster": {
+      "value": "$PLAN_4_SERVERS_PER_CLUSTER"
+    },
+    ".properties.plan4_enable_service_plan.enable.default_num_servers": {
+      "value": "$PLAN_4_DEFAULT_NUM_SERVERS"
+    },
+    ".properties.plan4_enable_service_plan.enable.service_instance_azs": {
+      "value": [
+        $PLAN_4_AZS
+       ]
+    }, 
+    ".properties.plan4_enable_service_plan.enable.locator_vm_type": {
+      "value": "$PLAN_4_LOCATOR_VM"
+    },
+    ".properties.plan4_enable_service_plan.enable.locator_persistent_disk_type": {
+      "value": "$PLAN_4_PERSIS_DISK_LOCATOR"
+    },
+    ".properties.plan4_enable_service_plan.enable.server_vm_type": {
+      "value": "$PLAN_4_SERVER_VM"
+    },
+    ".properties.plan4_enable_service_plan.enable.server_persistent_disk_type": {
+      "value": "$PLAN_4_PERSIS_DISK_SERVER"
+    }, 
     ".properties.plan5_enable_service_plan": {
       "value": "$PLAN_5_STATUS"
-    }
+    },
+    ".properties.plan5_enable_service_plan.enable.plan_name": {
+      "value": "$PLAN_5_NAME"
+    },
+    ".properties.plan5_enable_service_plan.enable.plan_description": {
+      "value": "$PLAN_5_DESC"
+    },
+    ".properties.plan5_enable_service_plan.enable.service_metrics": {
+      "value": "$PLAN_5_METRICS"
+    },
+    ".properties.plan5_enable_service_plan.enable.cf_service_access": {
+      "value": "$PLAN_5_SERVICE_ACCESS"
+    },
+    ".properties.plan5_enable_service_plan.enable.service_instance_quota": {
+      "value": "$PLAN_5_SERVICE_INSTANCE_QUOTA"
+    },
+    ".properties.plan5_enable_service_plan.enable.max_servers_per_cluster": {
+      "value": "$PLAN_5_SERVERS_PER_CLUSTER"
+    },
+    ".properties.plan5_enable_service_plan.enable.default_num_servers": {
+      "value": "$PLAN_5_DEFAULT_NUM_SERVERS"
+    },
+    ".properties.plan5_enable_service_plan.enable.service_instance_azs": {
+      "value": [
+        $PLAN_5_AZS
+       ]
+    }, 
+    ".properties.plan5_enable_service_plan.enable.locator_vm_type": {
+      "value": "$PLAN_5_LOCATOR_VM"
+    },
+    ".properties.plan5_enable_service_plan.enable.locator_persistent_disk_type": {
+      "value": "$PLAN_5_PERSIS_DISK_LOCATOR"
+    },
+    ".properties.plan5_enable_service_plan.enable.server_vm_type": {
+      "value": "$PLAN_5_SERVER_VM"
+    },
+    ".properties.plan5_enable_service_plan.enable.server_persistent_disk_type": {
+      "value": "$PLAN_5_PERSIS_DISK_SERVER"
+    } 
 }
 EOF
 )
